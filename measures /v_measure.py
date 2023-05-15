@@ -6,7 +6,7 @@ def marginal_entropy(table, classes, values):
     count = sum(grouped[values])
     entropy_sum = 0
     for i in grouped[values]:
-        entropy_sum -= i/count * np.log2(i/count)
+        entropy_sum -= i * np.log2(i/count)
     return entropy_sum
 
 def intercluster_entropy(table, cluster_id):
