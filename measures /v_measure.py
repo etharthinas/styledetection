@@ -14,7 +14,7 @@ def intercluster_entropy(table, cluster_id):
     count = sum(col)
     entropy_sum = 0
     for i in col:
-        entropy_sum -= i/count * np.log2(i/count)
+        entropy_sum -= i * np.log2(i/count)
     return entropy_sum * len(col)
 
 def total_entropy(dataframe, classes, clusters, values):
