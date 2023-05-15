@@ -43,7 +43,7 @@ def total_entropy(dataframe, classes, clusters, values):
         entropy_sum += intercluster_entropy(pivot_table, cluster_id)
     return entropy_sum / length
 
-def V_measure(dataframe, classes, clusters, values, beta=1):
+def v_measure(dataframe, classes, clusters, values, beta=1):
     h = 1 - total_entropy(dataframe, classes, clusters, values) / marginal_entropy(dataframe, classes, values)
     c = 1 - total_entropy(dataframe, clusters, classes, values) / marginal_entropy(dataframe, clusters, values)
     return (1 + beta) * h * c / (beta * h + c)
