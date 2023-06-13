@@ -1,4 +1,4 @@
-# styledetection
+# Unsupervised Style Extraction from Sentence Embeddings
 Introduction to Natural Language Processing Spring 2023
 
 Team 9; Kim Juhyung, Kim Minseo
