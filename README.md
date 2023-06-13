@@ -3,4 +3,5 @@ Introduction to Natural Language Processing Spring 2023
 
 Team 9; Kim Juhyung, Kim Minseo
 
-The final model is the bible/final-model.ipynb file, and its checkpoint is the bible/model-checkpoint.pt file.
+The final model is /bible/final-model.ipynb, and its checkpoint is /bible/model-checkpoint.pt.
+All necessary files are in the /bible folder.
