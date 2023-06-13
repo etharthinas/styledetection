@@ -3,7 +3,7 @@ Introduction to Natural Language Processing Spring 2023
 
 Team 9; Kim Juhyung, Kim Minseo
 
-The final model is bible/final-model.ipynb, and its checkpoint is bible/model-checkpoint.pt.
+The final model is [bible/final-model.ipynb](https://github.com/etharthinas/styledetection/blob/9e828e536cbde4f3331fa14b9018aa82e6002015/bible/final-model.ipynb), and its checkpoint is bible/model-checkpoint.pt.
 
 [bible/prev-models folder](https://github.com/etharthinas/styledetection/tree/3586abf73efcab0133b885c0e0bd843b5b650140/bible/prev-models): an archive-folder for model experiments and tinkerings
 
